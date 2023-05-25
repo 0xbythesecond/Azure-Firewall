@@ -1,6 +1,6 @@
 # Azure-Firewall
 
-<img src="https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png" height="60%" width="60%" alt="Azure Firewall Project Image"/>
+<img src="https://github.com/0xbythesecond/Azure-Firewall-/blob/main/Azure%20Firewall%20Lab%20Image%20Project.png?raw=true" height="100%" width="100%" alt="Azure Firewall Project Image"/>
 
 ## Introduction
 This lab or exercise aims to deploy and configure an Azure firewall for a secure network environment. Key tasks include using a template to set up the lab environment, deploying the Azure firewall as a boundary between the network and internet, creating a default route for outbound traffic, configuring application and network rules for traffic control, setting up DNS servers for proper name resolution, and testing the firewall's effectiveness. The objective is to establish a strong and secure Azure firewall configuration for network protection.
