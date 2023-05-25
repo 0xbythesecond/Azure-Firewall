@@ -26,6 +26,7 @@ The objective of this lab is to deploy and configure an Azure firewall, ensuring
   
 - Search for "Deploy a custom template" in the Azure portal search bar and select the option. <br />
 - On the Custom deployment blade, choose "Build your own template in the editor."<br />
+  <img src="https://github.com/0xbythesecond/Azure-Firewall-/blob/main/Deploy%20From%20Custom%20Template.png?raw=true" height="60%" width="60%" alt="deploy custom template"/>
 - Load the template file by clicking "Load file" and selecting the \Allfiles\Labs\08\template.json file.<br />
 - Save the template and ensure the desired settings, such as subscription, resource group, and location, are configured.<br />
 - Review the settings and click "Review + create," then click "Create" to deploy the lab environment.<br />
