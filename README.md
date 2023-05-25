@@ -275,7 +275,8 @@ Remove-AzResourceGroup -Name "AZ500LAB08" -Force -AsJob
 ```
 </details>
 
-
+## Reflection
+With a few clicks, I've created a default route and configure application and network rules, granting VIP access to specific websites and secret doors to certain IP addresses. I've also made sure our virtual machine knows its way around the internet by setting up DNS servers. Once everything was in place, I put our firewall to the test, letting it decide which websites to allow and which ones to block. It's like having a fun but strict internet chaperone. It's been a fun and great learning experience. 
 
 
 
