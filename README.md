@@ -225,6 +225,7 @@ Navigate to the AZ500LAB08 resource group in the Azure portal.
   <br />
 - Add the two DNS servers referenced in the network rule: 209.244.0.3 and 209.244.0.4.
   <br />
+  <img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/Add%20DNS%20Server%20IP%20Address.png?raw=true" height="90%" width="90%" alt="Add Customer DNS Server IP Address"/>
 - Save the changes and wait for the update to complete.
   
   >**Note**: Wait for the update to complete.
