@@ -94,6 +94,7 @@ Search for "Route tables" in the Azure portal and select the option.
    |Resource group|**AZ500LAB08**|
    |Region| **South Central US**|
    |Name|**Firewall-route**|
+  <img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/Create%20Route%20Table.png?raw=true" height="60%" width="60%" alt="create route table"/>
   
 - After the route table is created, associate it with the Workload-SN subnet of the virtual network where the firewall is deployed. <br />
   
