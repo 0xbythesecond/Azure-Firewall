@@ -290,7 +290,7 @@ Remove the resource group "AZ500LAB08" using PowerShell in the Azure Cloud Shell
 ```powershell
 Remove-AzResourceGroup -Name "AZ500LAB08" -Force -AsJob
 ```
-<img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/Delete%20Resource%20Group.png?raw=true" height="60%" width="60%" alt="Delete Resource Group in PowerShell"/>
+<img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/Delete%20Resource%20Group.png?raw=true" height="70%" width="70%" alt="Delete Resource Group in PowerShell"/>
   
 </details>
 
