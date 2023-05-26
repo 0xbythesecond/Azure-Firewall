@@ -253,7 +253,9 @@ Access the Srv-Jump virtual machine in the AZ500LAB08 resource group.  <br />
    |---|---|
    |User name|**localadmin**|
    |Password|**Pa55w.rd1234**|
+  
   <img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/RDP%20Login%20Credentials.png?raw=true" height="60%" width="60%" alt="RDP Login Credentials"/>
+  
   >**Note**: The following steps are performed in the Remote Desktop session to the Srv-Jump Azure VM.
 
   >**Note**: You will connect to the Srv-Work virtual machine. This is being done so we can test the ability to access the bing.com website. 
@@ -263,7 +265,7 @@ Access the Srv-Jump virtual machine in the AZ500LAB08 resource group.  <br />
    ```elm
   mstsc /v:Srv-Work
   ```
-  <img src=" " height="80%" width="80%" alt="RDP login from within existing VM"/>
+  <img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/Connect%20with%20RDP%20to%20Srv-Work.png?raw=true" height="80%" width="80%" alt="RDP login from within existing VM"/>
 -  When prompted to authenticate again, provide the following credentials:
   
    |Setting|Value|
