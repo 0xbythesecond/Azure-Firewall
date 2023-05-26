@@ -138,6 +138,7 @@ Navigate to the Test-FW01 firewall in the Azure portal.
   <br />
 - Click the Application rule collection tab and select "+ Add application rule collection."
   <br />
+  <img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/Select%20to%20Add%20Application%20Rule%20Collection.png?raw=true" height="90%" width="90%" alt="Add Application Rule Collection"/>
 - Specify the name, priority, and action for the application rule collection.
   <br />
   
