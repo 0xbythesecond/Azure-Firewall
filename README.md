@@ -254,7 +254,7 @@ Access the Srv-Jump virtual machine in the AZ500LAB08 resource group.  <br />
    |User name|**localadmin**|
    |Password|**Pa55w.rd1234**|
   
-  <img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/RDP%20Login%20Credentials.png?raw=true" height="60%" width="60%" alt="RDP Login Credentials"/>
+  <img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/RDP%20Login%20Credentials.png?raw=true" height="40%" width="40%" alt="RDP Login Credentials"/>
   
   >**Note**: The following steps are performed in the Remote Desktop session to the Srv-Jump Azure VM.
 
@@ -276,9 +276,10 @@ Access the Srv-Jump virtual machine in the AZ500LAB08 resource group.  <br />
 - Disable Internet Explorer Enhanced Security Configuration on Srv-Work. <br />
 - Test the firewall by browsing to "https://www.bing.com" and verifying that the website loads successfully. <br />
 - Also, attempt to browse "http://www.microsoft.com/" and observe the expected firewall block message. <br />
+  <img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/Successful%20Connection%20to%20Bing%20and%20Failed%20to%20Microsoft%20site.png?raw=true" height="80%" width="80%" alt="Success Connection to Bing and Failed Connection to Microsoft.com"/>
   
   >**Note**: Within the browser page, you should receive a message with text resembling the following: `HTTP request from 10.0.2.4:xxxxx to microsoft.com:80. Action: Deny. No rule matched. Proceeding with default action.` This is expected, since the firewall blocks access to this website.
-  []()
+  
 - Terminate both Remote Desktop sessions.  <br />
 
   >**Note**: You have successfully deployed and configured Azure Firewall, created a default route, set up application and network rules, and tested the firewall's effectiveness. Remember to clean up any unused resources to avoid unexpected costs.
