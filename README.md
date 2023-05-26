@@ -200,7 +200,7 @@ In the Test-FW01 firewall settings, go to the Network rule collection tab.
    |Destination type|**IP address**|
    |Destination Address|**209.244.0.3,209.244.0.4**|
    |Destination Ports|**53**|
-  
+  <img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/Add%20Network%20Rule%20Collection%20Settings.png?raw=true" height="90%" width="90%" alt="Create Network Rule Collection Settings"/>
 - Save the network rule and continue to the next task.
   
   >**Note**: Azure Firewall includes a built-in rule collection for infrastructure FQDNs that are allowed by default. These FQDNs are specific for the platform and can't be used for other purposes. 
