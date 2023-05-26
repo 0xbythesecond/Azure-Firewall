@@ -57,7 +57,8 @@ The objective of this lab is to deploy and configure an Azure firewall, ensuring
   <br />
 - On the Create a firewall blade, specify the necessary settings, such as resource group, name, region, firewall SKU, firewall management, and choose the virtual network.
   <br />
-- Add a new public IP address for the firewall.
+  <img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/Create%20Firewall%20Settings.png?raw=true" height="60%" width="60%" alt="Create Firewall"/>
+- Add a new public IP address (TEST-FW-PIP)  for the firewall.
   <br />
 - Review the settings and click "Review + create," then click "Create" to deploy the Azure firewall.
   
