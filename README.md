@@ -247,6 +247,8 @@ Navigate to the AZ500LAB08 resource group in the Azure portal.
 Access the Srv-Jump virtual machine in the AZ500LAB08 resource group.  <br />
 - Connect to the Srv-Jump Azure VM via Remote Desktop using the provided credentials.  <br />
   
+  <img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/Connect%20with%20RDP%20on%20Srv-Jump.png?raw=true" height="80%" width="80%" alt="RDP Connection File Download"/>
+  
    |Setting|Value|
    |---|---|
    |User name|**localadmin**|
