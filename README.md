@@ -102,6 +102,7 @@ Search for "Route tables" in the Azure portal and select the option.
    |---|---|
    |Virtual network|**Test-FW-VN**|
    |Subnet|**Workload-SN**|
+  <img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/Associate%20Firewall%20Route%20Table%20to%20Virtual%20Networ-Subnet.png?raw=true" height="90%" width="90%"/>
   
 - Add a default route with the destination IP addresses set as "0.0.0.0/0" and the next hop type as "Virtual appliance" using the private IP address of the firewall. <br />
   
