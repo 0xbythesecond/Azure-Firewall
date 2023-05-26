@@ -159,6 +159,8 @@ Navigate to the Test-FW01 firewall in the Azure portal.
    |Protocol port|**http:80, https:443**|
    |Target FQDNS|**www.bing.com**|
   
+  <img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/Add%20Application%20Rule%20Collection%20Settings.png?raw=true" height="90%" width="90%" alt="Application Rule Settings"/>
+  
 - Save the application rule and proceed to the next task.
   
   </details>
