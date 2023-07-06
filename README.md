@@ -3,7 +3,7 @@
 <img src="https://github.com/0xbythesecond/Azure-Firewall-/blob/main/Azure%20Firewall%20Lab%20Image%20Project.png?raw=true" height="100%" width="100%" alt="Azure Firewall Project Image"/>
 
 ## Introduction
-This lab or exercise aims to deploy and configure an Azure firewall for a secure network environment. Key tasks include using a template to set up the lab environment, deploying the Azure firewall as a boundary between the network and internet, creating a default route for outbound traffic, configuring application and network rules for traffic control, setting up DNS servers for proper name resolution, and testing the firewall's effectiveness. The objective is to establish a strong and secure Azure firewall configuration for network protection.
+This lab or exercise aims to deploy and configure an Azure firewall for a secure network environment. Key tasks include using a template to set up the lab environment, deploying the Azure firewall as a boundary between the network and the internet, creating a default route for outbound traffic, configuring application and network rules for traffic control, setting up DNS servers for proper name resolution, and testing the firewall's effectiveness. The objective is to establish a strong and secure Azure firewall configuration for network protection.
 
 ## Objective
 The objective of this lab is to deploy and configure an Azure firewall, ensuring the secure operation of the network environment. To achieve this, the following key tasks will be performed. Firstly, a template will be utilized to efficiently deploy the lab environment, ensuring all necessary resources are provisioned. Subsequently, the Azure firewall will be deployed to establish a secure boundary between the network and the internet, allowing controlled traffic flow. A default route will be created to define the next hop for outbound traffic, ensuring proper routing through the firewall. Furthermore, application rules will be configured to grant or deny specific applications or services, providing granular control over network traffic. Additionally, network rules will be set up to allow or deny traffic based on source and destination IP addresses or ranges, thereby enhancing network security. DNS servers will be configured to specify the DNS resolution mechanism for the firewall, enabling proper name resolution for network traffic. Finally, the effectiveness of the firewall will be tested to validate its functionality in filtering and controlling network traffic. By completing these tasks, the objective is to establish a robust and secure Azure firewall configuration and ensure its effectiveness in safeguarding the network environment.
@@ -22,12 +22,12 @@ The objective of this lab is to deploy and configure an Azure firewall, ensuring
   
   [Sign-in to the Azure portal](https://portal.azure.com/)
   
-  >**Note**: Sign in to the Azure portal using an account with Owner or Contributor role in the Azure subscription.
+  >**Note**: Sign in to the Azure portal using an account with an Owner or Contributor role in the Azure subscription.
   
 - Search for "Deploy a custom template" in the Azure portal search bar and select the option. <br />
 - On the Custom deployment blade, choose "Build your own template in the editor."<br />
   <img src="https://github.com/0xbythesecond/Azure-Firewall-/blob/main/Deploy%20From%20Custom%20Template.png?raw=true" height="60%" width="60%" alt="deploy custom template"/>
-- Load the template file by clicking "Load file" and selecting the \Allfiles\Labs\08\template.json file.<br />
+- Load the template file by clicking "Load file" and selecting the [\Allfiles\Labs\08\template.json](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Allfiles/Labs/08/template.json) file.<br />
 - Save the template and ensure the desired settings, such as subscription, resource group, and location, are configured.<br />
   <img src="https://github.com/0xbythesecond/Azure-Firewall-/blob/main/Customer%20Template%20Settings.png?raw=true" height="60%" width="60%" alt="deploy custom template setting"/>
 - Review the settings and click "Review + create," then click "Create" to deploy the lab environment.<br />
@@ -38,7 +38,7 @@ The objective of this lab is to deploy and configure an Azure firewall, ensuring
    |Resource group|click **Create new** and type the name **AZ500LAB08**|
    |Location|**South Central US**|
   
-    >**Note**: I was having trouble loading the resources for the Firewall and public IP Address and adjusted the regions for South Central US in the json file to resolve the error. You may have to make the adjustment for a location(region) near you. 
+    >**Note**: I was having trouble loading the resources for the Firewall and public IP Address and adjusted the regions for South Central US in the JSON file to resolve the error. You may have to make the adjustment for a location(region) near you. 
   
   </details>
   
@@ -203,7 +203,7 @@ In the Test-FW01 firewall settings, go to the Network rule collection tab.
   <img src="https://github.com/0xbythesecond/Azure-Firewall/blob/main/Add%20Network%20Rule%20Collection%20Settings.png?raw=true" height="90%" width="90%" alt="Create Network Rule Collection Settings"/>
 - Save the network rule and continue to the next task.
   
-  >**Note**: Azure Firewall includes a built-in rule collection for infrastructure FQDNs that are allowed by default. These FQDNs are specific for the platform and can't be used for other purposes. 
+  >**Note**: Azure Firewall includes a built-in rule collection for infrastructure FQDNs that are allowed by default. These FQDNs are specific to the platform and can't be used for other purposes. 
   
      </details>
   
@@ -258,9 +258,9 @@ Access the Srv-Jump virtual machine in the AZ500LAB08 resource group.  <br />
   
   >**Note**: The following steps are performed in the Remote Desktop session to the Srv-Jump Azure VM.
 
-  >**Note**: You will connect to the Srv-Work virtual machine. This is being done so we can test the ability to access the bing.com website. 
+  >**Note**: You will connect to the Srv-Work virtual machine. This is being done so we can test the ability to access the Bing.com website. 
   
-- Within the Remote Desktop session, establish a connection to the Srv-Work virtual machine via Remote Deskop Connection. <br />
+- Within the Remote Desktop session, establish a connection to the Srv-Work virtual machine via Remote Desktop Connection. <br />
   
    ```elm
   mstsc /v:Srv-Work
@@ -282,7 +282,7 @@ Access the Srv-Jump virtual machine in the AZ500LAB08 resource group.  <br />
   
 - Terminate both Remote Desktop sessions.  <br />
 
-  >**Note**: You have successfully deployed and configured Azure Firewall, created a default route, set up application and network rules, and tested the firewall's effectiveness. Remember to clean up any unused resources to avoid unexpected costs.
+  >**Note**: You have successfully deployed and configured Azure Firewall, created a default route, set up the application and network rules, and tested the firewall's effectiveness. Remember to clean up any unused resources to avoid unexpected costs.
 
 Clean up resources:
 Remove the resource group "AZ500LAB08" using PowerShell in the Azure Cloud Shell by running the following command:
@@ -295,7 +295,7 @@ Remove-AzResourceGroup -Name "AZ500LAB08" -Force -AsJob
 </details>
 
 ## Reflection
-With a few clicks, I've created a default route and configure application and network rules, granting VIP access to specific websites and secret doors to certain IP addresses. I've also made sure our virtual machine knows its way around the internet by setting up DNS servers. Once everything was in place, I put our firewall to the test, letting it decide which websites to allow and which ones to block. It's like having a fun but strict internet chaperone. It's been a fun and great learning experience. 
+With a few clicks, I've created a default route and configured the application and network rules, granting VIP access to specific websites and secret doors to certain IP addresses. I've also made sure our virtual machine knows its way around the internet by setting up DNS servers. Once everything was in place, I put our firewall to the test, letting it decide which websites to allow and which ones to block. It's like having a fun but strict internet chaperone. It's been a fun and great learning experience. 
 
 
 
